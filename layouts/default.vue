@@ -1,7 +1,7 @@
 <template>
-  <el-container>
+  <el-container class="layout-default">
     <el-header>
-      <m-header/>
+      <my-header/>
     </el-header>
     <el-main>
       <nuxt/>
@@ -11,10 +11,10 @@
 </template>
 
 <script>
-import MHeader from '@/components/public/header'
+import MyHeader from '@/components/public/header'
 export default {
   components: {
-    MHeader
+    MyHeader
   }
 }
 </script>
